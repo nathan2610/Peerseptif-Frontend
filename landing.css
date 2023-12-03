@@ -1,0 +1,29 @@
+body, .navbar, .nav-link {
+    font-family: "Montserrat", sans-serif !important;
+}
+
+.navbar{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.container-fluid img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+}
+
+.big-text{
+    font-weight: bold;
+}
+
+#content1{
+    margin-top: 7%;
+    margin-left: 3%;
+}
+
+a{
+    color: black;
+}
