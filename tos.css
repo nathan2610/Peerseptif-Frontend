@@ -7,25 +7,12 @@ body, .navbar, .nav-link, footer {
     padding-right: 3%;
 }
 
-.container-fluid img{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 90px;
-}
-
 .big-text{
     font-weight: 800;
 }
 
-#content1{
-    margin-top: 7%;
-    margin-left: 3%;
-}
-
-h3{
-    font-weight: bold;
+#content{
+    padding: 5%;
 }
 
 hr{
@@ -58,25 +45,13 @@ a{
 
 @media only screen and (max-width: 768px) {
 
-    .big-text{
-        font-size: 16pt;
+    p{
+        font-size: 12pt;
+        text-align: justify;
     }
 
-    h5{
-        font-size: 10pt;
-    }
-
-    #introImg{
-        margin-top: 50px;
-    }
-    
-    img{
-        width: 100%;
-        height: auto;
-    }
-
-    .col-5 img{
-        margin-top: 50px;
+    #content{
+        padding: 8%;
     }
 
     footer{
