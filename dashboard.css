@@ -1,0 +1,380 @@
+body{
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.navbar-brand img{
+    width: 132px;
+}
+
+.navbarcnt{
+    margin-left: 80.5px;
+    margin-right: 80.5px;
+}
+
+a{
+    text-decoration: none !important;
+    color: #153572;
+}
+
+.nav-item{
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nav-item-blue-bordered{
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid 1px#153572;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nav-item-blue-bordered:hover{
+    color: white !important;
+    border: solid 1px#153572;
+    background: #153572;
+    transition: 0.3s;
+}
+
+.nav-item-blue-bordered:hover a{
+    color: white !important;
+}
+
+.nav-item-orange-fill a{
+    color: white !important;
+}
+.nav-item-orange-fill{
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    background: #EEA900;
+    border: solid 1px#EEA900;
+    border-radius: 8px;
+}
+
+.nav-item-orange-fill:hover{
+    border: solid 1px #d69800;
+    background: #d69800;
+    transition: 0.3s;
+}
+
+#container{
+    margin-left: 80.5px;
+    margin-right: 80.5px;
+}
+
+.row{
+    width: 100%;
+}
+
+#profile-section{
+    display: flex;
+    flex-direction: row;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    line-height: 32px;
+}
+
+.profile img{
+    width: 175px;
+    height: 225px;;
+}
+
+.details{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+.summary{
+    background: #FDF6E6;
+    border-radius: 12px;
+    padding: 16px;
+    color: #B37F00 !important;
+}
+
+.summary .col p{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.summary p{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.grade-container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.grade{
+    font-size: 98px;
+    font-weight: 800;
+}
+
+.grade-small{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.grade2{
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.grade2-small{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.head-label{
+    font-size: 24px;
+    font-weight: 700;
+    color: #0D2044;
+}
+
+.see-more{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.skill-set{
+    display: flex; 
+    background: #E8EDF5;
+    border-radius: 12px;
+    gap: 12px; 
+    flex-wrap: wrap;
+}
+
+.assessments{
+    display: flex; 
+    background: #E8EDF5;
+    border-radius: 12px;
+    gap: 12px; 
+    flex-wrap: wrap;
+}
+
+.assessment-details{
+    overflow: hidden;
+    width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+}
+
+.assessment-container{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.skill{
+    background: #FFFFFF;
+    border-radius: 30px;
+    color: black;
+    padding: 8px;
+    text-align: center;
+}
+
+.add-skill{
+    background: #153572;
+    border-radius: 30px;
+    color: white;
+    padding: 8px;
+    text-align: center;
+}
+
+.skill:hover{
+    outline: 2px solid #b9c6df;
+    outline-offset: -2px;
+    transition: 1s;
+}
+
+.add-skill:hover{
+    background: #112b5b;
+    transition: 0.3s;
+}
+
+.det-label{
+    font-weight: 600;
+}
+
+.tags{
+    display: flex;
+    text-align: center;
+    gap: 12px;
+}
+
+.vote{
+    display: flex;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #153572;
+    border: solid 2px #153572;
+    border-radius: 8px;
+    font-weight: 400;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.vote:hover{
+    color: #FFFFFF;
+    border: solid 2px #153572;
+    background: #153572;
+    transition: 0.3s;
+}
+
+.vote:hover svg{
+    fill: #FFFFFF;
+    transition: 0.3s;
+}
+
+.blue-fill{
+    padding: 10px;
+    padding-left: 27px;
+    padding-right: 27px;
+    color: #FFFFFF;
+    background: #153572;
+    border-radius: 8px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.blue-fill:hover{
+    background: #112B5B;
+    transition: 0.3s;
+}
+
+svg{
+    fill: #153572;
+}
+
+.assessment-button{
+    display: flex;
+    gap: 12px;
+}
+
+.tag{
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #153572;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: solid 2px #153572;
+    border-radius: 30px;
+    font-size: 14px;
+}
+
+.assessment-card{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+textarea{
+    height: 118px;
+    resize: none;
+    margin: 12px;
+    border-radius: 8px;
+}
+
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 2px solid #000000;
+    margin: 20px auto;
+}
+
+footer{
+    font-size: 9pt;
+}
+
+#fLeft{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    text-decoration: underline;
+}
+
+#fRight{
+    display: flex;
+    justify-content: end;
+    border: red;
+}
+
+footer{
+    margin-left: 72px;
+    margin-right: 72px;
+    border-top: solid 1px;
+}
+
+@media only screen and (max-width: 768px) {
+    footer{
+        font-size: 8pt;
+    }
+
+    #fLeft{
+        display: flex;
+        justify-content: start;
+        gap: 5px;
+        margin-left: 5%;
+    }
+    
+    #fRight{
+        display: flex;
+        justify-content: end;
+    }
+
+    .profile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #profile-section{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+}
